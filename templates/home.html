@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliance Checker</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <script defer src="{% static 'js/home.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+</head>
+<body>
+    <h1>Check Compliance</h1>
+    <form method="POST">
+        <label for="url">Webpage URL:</label>
+        <input type="url" id="url" name="url" placeholder="Enter webpage URL">
+        <br>
+        <label for="policy_url">Compliance Policy URL:</label>
+        <input type="url" id="policy_url" name="policy_url" placeholder="Enter policy URL">
+        <br>
+        <button type="submit">Check Compliance</button>
+    </form>
+    <br>
+    <div id="findings"></div>
+</body>
+</html>
+

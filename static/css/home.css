@@ -1,0 +1,40 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Findings box */
+  #findings {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+  }
+  
